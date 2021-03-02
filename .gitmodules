@@ -1,6 +1,6 @@
 [submodule "client"]
 	path = client
-	url = https://github.com/pedrouid/walletconnect-pay-frontend.git
+	url = https://github.com/abhishek-raj/walletconnect-pay-frontend.git
 [submodule "server"]
 	path = server
-	url = https://github.com/pedrouid/walletconnect-pay-backend.git
+	url = https://github.com/abhishek-raj/walletconnect-pay-backend.git
