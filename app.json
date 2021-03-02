@@ -1,0 +1,20 @@
+{
+    "name": "walletconnect-pay",
+    "description": "Deploy Wallet Connect Pay",
+    "repository": "https://github.com/abhishek-raj/walletconnect-pay",
+    "env": {
+        "BIND_ADDRESS": {
+            "description": "Should be 0.0.0.0",
+            "value": "0.0.0.0"
+        },
+        "MAILGUN_API_KEY": {
+            "description": "Please provide mailgun api key"
+        },
+        "PINATA_API_KEY": {
+            "description": "Please provide pinata api key"
+        },
+        "PINATA_API_SECRET": {
+            "description": "Please provide pinata api secret"
+        }
+    }
+}
