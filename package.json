@@ -23,7 +23,8 @@
     "dev:client": "cd ./client && npm run start",
     "dev": "NODE_ENV=development concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "deploy:server": "cd ./server && npm run deploy",
-    "deploy": "npm run build && npm run deploy:server"
+    "deploy": "npm run build && npm run deploy:server",
+    "heroku-postbuild": "npm run bootstrap && npm run build"
   },
   "repository": {
     "type": "git",
